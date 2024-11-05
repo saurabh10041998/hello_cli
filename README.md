@@ -1,0 +1,3 @@
+## Hello CLI
+
+hello world cli application acting as toy project...

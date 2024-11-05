@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=64.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hello_cli"
+version = "0.0.1"
+description = "Simple hello world cli application"
+readme = "README.md"
+authors = [{ name = "gunsh0t", email = "shindesaurabhpict@gmail.com"}]
+
+[project.scripts]
+hello_cli = "hello_cli.__main__:main"
